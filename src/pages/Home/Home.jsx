@@ -2,6 +2,7 @@ import Hero from "./Components/Hero";
 import Features from "./Components/Features";
 import BlogsSwiper from "./Components/BlogsSwiper";
 import CoursesSection from "./Components/CoursesSection";
+import Testimonial from "./Components/Testimonial";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Features />
       <CoursesSection />
       <BlogsSwiper />
+      <Testimonial/>
     </>
   );
 }
